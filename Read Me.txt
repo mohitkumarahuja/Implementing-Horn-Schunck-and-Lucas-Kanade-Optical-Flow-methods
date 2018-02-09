@@ -1,0 +1,20 @@
+1. Please add this folder to your Matlab Directory
+
+2. Run Exercise_1.m file which contains the code for Frist Exercise assigned to us. The functions used are:
+
+	a) HS.m 		which impliments Horn and Shunck Method to calculate U and V.
+	b) LK.m 		which impliments Lucas and Kanade Method to calculate U and V.
+	c) hierarchical_LK.m 	which impliments Lucas and Kanade Method with a multiresolution scheme to Improve the result.
+
+
+3. Run Exercise_2.m file which contains the code for Second Exercise assigned to us. The functions used are:
+
+	a) Affine_Motion.m 	is used to Compute the Affine Parameters which will further be used to compute the displacement of points.
+	b) Compute_u_v.m 	is used to Compute the U and V from the equations.
+	c) Create_New_Image.m 	is used to Create a New Image using the displacement between first two images.
+
+
+4. plotOF_arrows.m AND plotOF_colors.m files were provided by Prof. Yannick Benezeth for plotting references.
+
+
+{ NOTE : To know about any function, you can write "help" and Function Name in the command window to get information about that function }
